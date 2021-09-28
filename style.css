@@ -22,7 +22,7 @@ body {
     border-radius: 30px;
     width: 100%;
     max-width: 320px;
-    height: 40vh;
+    height: 50vh;
     margin: 1em;
   }
   
@@ -66,12 +66,14 @@ body {
       margin-top: 2%;
       margin-bottom: 5%;
       font-size: 18px;
+      text-align: center;
   }
   
   h1.temp {
     margin: 0;
     margin-top: 2%;
     margin-bottom: 0.4em;
+    text-align: center;
   }
   
 
@@ -98,3 +100,20 @@ body {
     top: 0;
     left: 20px;
   }
+
+  @media(max-width: 768px){
+    .description {
+      text-transform: capitalize;
+      text-align: center;
+     }
+  
+     .humidity {
+         margin-top: 2%;
+     }
+
+     .card {
+    height: 60vh;
+  }
+  }
+
+
